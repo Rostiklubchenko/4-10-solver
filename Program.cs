@@ -1,6 +1,5 @@
 ﻿using System.Data;
 using System.Diagnostics;
-using System.Runtime.Serialization.Formatters;
 
 namespace _4_10
 {
@@ -121,27 +120,6 @@ namespace _4_10
             }
             
         }
-
-        //static void GenerateProblems()
-        //{
-        //    char[] op = { '+', '-', '*', '/' };
-        //    char[,] op_comb = new char[64, 3];
-        //    int count = 0;
-        //    for (int i = 0; i < op.Length; i++)
-        //    {
-        //        for (int j = 0; j < op.Length; j++)
-        //        {
-        //            for (int k = 0; k < op.Length; k++)
-        //            {
-        //                op_comb[count, 0] = op[i];
-        //                op_comb[count, 1] = op[j];
-        //                op_comb[count, 2] = op[k];
-        //                Console.WriteLine("{" + "'" + op_comb[count, 0] + "', '" + op_comb[count, 1] + "', '" + op_comb[count, 2] + "'},");
-        //                count++;
-        //            }
-        //        }
-        //    }
-        //}
 
         static void GeneratePermutations(int[] numbers, int startIndex, int endIndex)
         {
